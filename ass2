@@ -1,0 +1,41 @@
+1.b. Using <link tag>
+2.b. Using P tag
+3.b. False
+4.a. True
+5.c. 10000000000000000
+6.A.  let people = [
+    { id: 1, name: 'John', age: 30 },
+    { id: 2, name: 'Jane', age: 25 },
+    { id: 3, name: 'Bob', age: 40 },
+    ];
+    let names = people.map(person => person.name);
+    console.log(names);
+    
+B.  let peopleWithSalary = people.map(person => ({
+    id: person.id,
+    name: person.name,
+    age: person.age,
+    salary: 50000,
+    }));
+    console.log(peopleWithSalary);
+    
+C.  let peopleAbove30 = people
+    .filter(person => person.age > 30)
+    .map(person => ({ name: person.name, age: person.age }));
+
+    console.log(peopleAbove30);
+    
+7.  let cb1 = (a, b) => a + b;
+    let cb2 = (a, b) => a - b;
+    function main(cb1, cb2, x, y) {
+      let sum = cb1(x, y);
+      let difference = cb2(x, y);
+      console.log(Sum);
+      console.log(Difference);
+}
+
+8.c. Map Function
+10.c. []
+11.B. display : none removes the element from the dom while visibility : hidden just hides the element.
+12.a. 4 10  18
+13.a. [1,2,3,4]
